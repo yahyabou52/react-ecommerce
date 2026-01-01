@@ -31,3 +31,21 @@ input{
   width: 80%;
   max-width: 400px;
 }
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filters button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  background: #eee;
+}
+
+.filters button:hover {
+  background: #ddd;
+}
